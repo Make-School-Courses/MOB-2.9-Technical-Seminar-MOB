@@ -52,8 +52,11 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 1. Notes on Giving a Presentation
     - Class material [Slides](https://docs.google.com/presentation/d/1dRzJE_A2eLcyee8C9KWXBoAnzIv-sqaYSdr30mNOT18/edit?usp=sharing)
+    [Template](https://docs.google.com/document/d/1PT8323UEyCGouDSZTYBFwLBN7NnKZLyQZQPesAergHY/edit?usp=sharing)
 
-1. Research lab session
+1. Research lab session & Rubric
+    - Class Material
+    [Rubric]
 
 1. Research lab session
 
@@ -72,7 +75,7 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 1. Server Side Swift presentation
 
 1. Server Side Swift guided activity
-  
+
 1. Assessment + Insights
 
 

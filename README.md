@@ -14,7 +14,7 @@ Total Out-of-Class Hours: 75 hours <br>
 Total Hours: 112.5 hours <br>
 Units:  3 units <br>
 Delivery Method:  Residential <br>
-Class Sessions:  13 classes
+Class Sessions:  12 classes
 
 ## Requisites:
 
@@ -51,16 +51,22 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
     - Class material [Slides](https://docs.google.com/presentation/d/14BbKi7hEKUqedhPZk3SYFxRPP2P0DrToxKREgEhN16c/edit?usp=sharing)
 
 1. Notes on Giving a Presentation
-    - Class material [Slides](https://docs.google.com/presentation/d/1dRzJE_A2eLcyee8C9KWXBoAnzIv-sqaYSdr30mNOT18/edit?usp=sharing)
+    - Class material
+    [Slides](https://docs.google.com/presentation/d/1dRzJE_A2eLcyee8C9KWXBoAnzIv-sqaYSdr30mNOT18/edit?usp=sharing)
+
+    - Template for Session Planning
     [Template](https://docs.google.com/document/d/1PT8323UEyCGouDSZTYBFwLBN7NnKZLyQZQPesAergHY/edit?usp=sharing)
 
 1. Research lab session & Rubric
-    - Class Material
-    [Rubric]
+    - Presenting Grading Rubric
+
+    [Rubric](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing)
 
 1. Research lab session
+    - Deliverable: Session Planning
 
 1. Research lab session
+    - Deliverable: Material for activity
 
 1. Guest Speaker session
 
@@ -69,8 +75,6 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 1. RIBS Guided Activity
 
 1. Firebase + Notifications presentation
-
-1. Firebase + Notifications guided activity
 
 1. Server Side Swift presentation
 

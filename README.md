@@ -45,7 +45,7 @@ To pass this course you must meet the following requirements:
 
 ## Lessons
 
-Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
+Should be ~12 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 1. Introduction to course
     - Class material [Slides](https://docs.google.com/presentation/d/14BbKi7hEKUqedhPZk3SYFxRPP2P0DrToxKREgEhN16c/edit?usp=sharing)

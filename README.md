@@ -36,11 +36,10 @@ To pass this course you must meet the following requirements:
 - No more than two no call no shows
 - No more than four excused absences
 - Make up all classwork from all absences
-- Finish all required tutorials and projects
 - Deliver results on the research
 - Present results in-class + guided activity
 - Active participation & critical evaluation
-- Final assessment
+- Score 80% of the sections on the [Rubrics](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing) with Mastery level.
 
 
 ## Lessons

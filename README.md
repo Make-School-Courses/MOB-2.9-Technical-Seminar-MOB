@@ -33,13 +33,24 @@ Students by the end of the course will be able to ...
 
 To pass this course you must meet the following requirements:
 
+Participation (35%)
 - No more than two no call no shows
 - No more than four excused absences
 - Make up all classwork from all absences
-- Deliver results on the research
-- Present results in-class + guided activity
 - Active participation & critical evaluation
-- Score 80% of the sections on the [Rubrics](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing) with Mastery level.
+
+Presentation (25%)
+- Deliver results on the research
+- Present results in-class
+- Score at least 70% in the [Rubric](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing) with Mastery level.
+
+Activity (20%)
+- Guided activity
+- Score at least 70% in the [Rubric](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing) with Mastery level.
+
+Blog Post (20%)
+- Write a blog post with the findings of your research.
+- Score at least 70% in the [Rubric](https://docs.google.com/document/d/1PRi8yY_uyA8Px8XZ8ZL03xFaN9ZRDv4geMDHeNz_zlw/edit?usp=sharing)
 
 
 ## Lessons

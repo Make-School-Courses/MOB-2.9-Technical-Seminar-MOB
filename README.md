@@ -42,11 +42,11 @@ Participation (35%)
 Presentation (25%)
 - Deliver results on the research
 - Present results in-class
-- Score at least 70% in the [Rubric](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing) with Mastery level.
+- Score at least 70% in the [Rubric](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing)
 
 Activity (20%)
 - Guided activity
-- Score at least 70% in the [Rubric](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing) with Mastery level.
+- Score at least 70% in the [Rubric](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing) 
 
 Blog Post (20%)
 - Write a blog post with the findings of your research.

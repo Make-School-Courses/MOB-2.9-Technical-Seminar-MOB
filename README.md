@@ -16,11 +16,11 @@ Units:  3 units <br>
 Delivery Method:  Residential <br>
 Class Sessions:  12 classes
 
-## Requisites:
+## Prerequisites:
 
- Senior level class<br>
+ All level one classes <br>
 
-## Learning Objectives or Competencies
+## Learning Objectives
 
 Students by the end of the course will be able to ...
 
@@ -29,72 +29,99 @@ Students by the end of the course will be able to ...
 1. Give a high quality presentation showing results on their research.
 1. Develop critical evaluation of their peer’s work.
 
-## Evaluation
+## Schedule
+### M/W Template
+**Course Dates:** Monday, January 21 – Wednesday, March 6, 2019 (7 weeks)
 
+**Class Times:** Monday and Wednesday at 3:30–5:20pm (10 class sessions)
+
+| Class | Topics                  |
+|:-----:|:-----------------------:|
+|  1 | [Lesson 1] |
+|  2 | [Lesson 2] |
+|  3 | [Lesson 3] |
+|  4 | [Lesson 4] |
+|  5 | [Lesson 5] |
+|  6 | [Lesson 6] |
+|  7 | [Lesson 7] |
+|  8 | [Lesson 8] |
+|  9 | [Lesson 9] |
+|  10|[Lesson 10] |
+|  11|[Lesson 11] |
+|  12|[Lesson 12]]|
+|  13|   Feedback |
+
+[Lesson 1]: Lessons/Lesson1.md
+[Lesson 2]: Lessons/Lesson2.md
+[Lesson 3]: Lessons/Lesson3.md
+[Lesson 4]: Lessons/Lesson4.md
+[Lesson 5]: Lessons/Lesson5.md
+[Lesson 6]: Lessons/Lesson6.md
+[Lesson 7]: Lessons/Lesson7.md
+[Lesson 8]: Lessons/Lesson8.md
+[Lesson 9]: Lessons/Lesson9.md
+[Lesson 10]: Lessons/Lesson10.md
+[Lesson 11]: Lessons/Lesson11.md
+[Lesson 12]: Lessons/Lesson12.md
+
+
+### Projects
+**All projects will require a minimum of 10 commits, and must take place throughout the entirety of the course**
+
+- **Good Example:** 40+ commits throughout the length of the course, looking for a healthy spattering of commits each week (such as 3-5 per day).
+- **Bad Example:** 10 commits on one day during the course and no others. Students who do this will be at severe risk of not passing the class.
+- **Unacceptable Example:** 2 commits the day before a project is due. Students who do this should not expect to pass the class.
+
+#### Why are we doing this?
+
+We want to encourage best practices that you will see working as a professional software engineer. Breaking up a project by doing a large amount of commits helps engineers in the following ways:
+
+- It's much easier to retrace your steps if you break your project/product/code up into smaller pieces
+- It helps with being able to comprehend the larger problem, and also will help with your debugging (i.e. finding exactly when you pushed that piece of broken code)
+- It allows for more streamlined, iterative communication in your team, as it's much easier to hand off a small change to someone (updating a function) than a huge one (changed the architecture of the project)
+
+Through this requirement, we hope to encourage you to think about projects with an iterative, modular mindset. Doing so will allow you to break projects down into smaller milestones that come together to make your fully-realized solution.
+
+ Projects are a chance for you to build and ship code that is based on class concepts.  Many are open ended allowing you to be creative and to have individual work for your portfolio.
+
+## Evaluation
 To pass this course you must meet the following requirements:
 
-Participation (35%)
-- No more than two no call no shows
-- No more than four excused absences
+- Complete all required tutorials
+- Pass all projects according to the associated project rubric
+- Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
-- Active participation & critical evaluation
 
-Presentation (25%)
+Presentation
 - Deliver results on the research
 - Present results in-class
 - Score at least 70% in the [Rubric](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing)
 
-Activity (20%)
+Activity
 - Guided activity
-- Score at least 70% in the [Rubric](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing) 
+- Score at least 70% in the [Rubric](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing)
 
-Blog Post (20%)
+Blog Post
 - Write a blog post with the findings of your research.
 - Score at least 70% in the [Rubric](https://docs.google.com/document/d/1PRi8yY_uyA8Px8XZ8ZL03xFaN9ZRDv4geMDHeNz_zlw/edit?usp=sharing)
 
 
-## Lessons
+## Attendance
+Just like any job, attendance at Make School is required and a key component of your success. Attendance is being onsite from 9:30 to 5:30 each day, attending all scheduled sessions including classes, huddles, coaching and school meetings, and working in the study labs when not in a scheduled session. Working onsite allows you to learn with your peers, have access to support from TAs, instructors and others, and is vital to your learning.
 
-Should be ~12 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
+Attendance requirements for scheduled sessions are:
+- No more than two no call no shows per term in any scheduled session.
+- No more than four excused absences per term in any scheduled session.
 
-1. Introduction to course
-    - Class material [Slides](https://docs.google.com/presentation/d/14BbKi7hEKUqedhPZk3SYFxRPP2P0DrToxKREgEhN16c/edit?usp=sharing)
-
-1. Notes on Giving a Presentation
-    - Class material - [Slides](https://docs.google.com/presentation/d/1dRzJE_A2eLcyee8C9KWXBoAnzIv-sqaYSdr30mNOT18/edit?usp=sharing)
-
-    - Template for Session Planning - [Template](https://docs.google.com/document/d/1PT8323UEyCGouDSZTYBFwLBN7NnKZLyQZQPesAergHY/edit?usp=sharing)
-
-1. Research lab session & Rubric
-    - Presenting Grading Rubric - [Rubric](https://docs.google.com/document/d/1JqCX9wvQR9iaj25w3Ncpn7IOtMBKpfy2cMBuzzW88fA/edit?usp=sharing)
-
-1. Research lab session
-    - Deliverable: Session Planning
-
-1. Research lab session
-    - Deliverable: Material for activity
-
-1. Guest Speaker session
-
-1. RIBS presentation
-
-1. RIBS Guided Activity
-
-1. Firebase + Notifications presentation
-
-1. Server Side Swift presentation
-
-1. Server Side Swift guided activity
-
-1. Assessment + Insights
-
+Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP is cause for not being allowed to continue at Make School.
 
 ## Make School Course Policies
 
-[Academic Honesty](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Academic-Honesty-and-Plagiarism.md)<br>
-[Accomodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)<br>
-[Diversity Statement](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Diversity-Statement.md)<br>
-[Evaluation Methods](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluation-Methods.md)
+[Academic Honesty](https://make.sc/academic-honesty)<br>
+[Accommodations for Students](https://make.sc/accommodations-for-students)<br>
+[Attendance Policy](https://make.sc/attendance-policy)  
+[Diversity and Inclusion Policy](https://make.sc/diversity-and-inclusion-policy)<br>
+[Grading System](https://make.sc/grading-system)
 <br>
-[Title IX Disclaimer](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluations-Title-X-Disclaimer.md)<br>
-[Program Learning Outcomes](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Program-Learning-Outcomes.md)
+[Title IX Policy](https://make.sc/title-ix-policy)<br>
+[Program Learning Outcomes](https://make.sc/program-learning-outcomes)

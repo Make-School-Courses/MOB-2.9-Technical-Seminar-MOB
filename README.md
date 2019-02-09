@@ -30,10 +30,6 @@ Students by the end of the course will be able to ...
 1. Develop critical evaluation of their peer’s work.
 
 ## Schedule
-### M/W Template
-**Course Dates:** Monday, January 21 – Wednesday, March 6, 2019 (7 weeks)
-
-**Class Times:** Monday and Wednesday at 3:30–5:20pm (10 class sessions)
 
 | Class | Topics                  |
 |:-----:|:-----------------------:|

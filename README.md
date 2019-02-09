@@ -48,7 +48,7 @@ Students by the end of the course will be able to ...
 |  9 | [Lesson 9] |
 |  10|[Lesson 10] |
 |  11|[Lesson 11] |
-|  12|[Lesson 12]]|
+|  12|[Lesson 12] |
 |  13|   Feedback |
 
 [Lesson 1]: Lessons/Lesson1.md

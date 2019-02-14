@@ -24,10 +24,10 @@ Class Sessions:  12 classes
 
 Students by the end of the course will be able to ...
 
-1. Become an active participant by creating, analyzing and evaluating information.
-1. Study best practices for designing and developing a prototype.
+1. Create, analyze and evaluate information for their chosen topic.
+1. Use best practices for designing and developing a prototype.
 1. Give a high quality presentation showing results on their research.
-1. Develop critical evaluation of their peer’s work.
+1. Provide and receive critical feedback on prototypes and presentations.
 
 ## Schedule
 

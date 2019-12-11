@@ -61,14 +61,13 @@ Students by the end of the course will be able to ...
 
 |                        Assignment                         | Date Assigned |   Due Date   |            Submission Form           |
 |:---------------------------------------------------------:|:-------------:|:------------:|:------------------------------------:|
-| [Link to Assignment](makeschool.com)                      |  Tue, Oct 15  |  Tue, Oct 22 | [Submit Assignment](makeschool.com)  |
-| [Link to Assignment](makeschool.com)                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Link to Assignment](makeschool.com)                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Link to Assignment](makeschool.com)                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
+| [Conceptual Questions Worksheet]                        |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
+| [Interview Screencast] #1                                  |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
+| [Interview Screencast] #2                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
+| [Take-Home Project] #1                     |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
+| [Take-Home Project] #2                     |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
 
-## Class Assignments
-
-**TODO**
+[Interview Screencast]:./Assignments/interview-screencast.md
 
 ## Evaluation
 To pass this course you must meet the following requirements:

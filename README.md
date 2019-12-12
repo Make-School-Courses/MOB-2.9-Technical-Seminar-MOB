@@ -31,7 +31,7 @@ Students by the end of the course will be able to ...
 |  1 |  Wed, January 22               | Conceptual Questions |
 |  2 |  Mon, January 27               | Arrays/Dictionaries/Complexity |
 |  3 |  Wed, January 29               | Linked Lists |
-|  4 |  Mon, February 3               | Stacks |
+|  4 |  Mon, February 3               | [Stacks] |
 |  5 |  Wed, February 5               | Queues |
 |  6 |  Mon, February 10              | Trees |
 |  7 |  Wed, February 12              | Binary Search |
@@ -42,18 +42,7 @@ Students by the end of the course will be able to ...
 | 12 |  Mon, March 2                  | Mock Interviews Day 1 |
 | 13 |  Wed, March 4                  | Mock Interviews Day 2 |
 
-[Lesson 1]: Lessons/Lesson1.md
-[Lesson 2]: Lessons/Lesson2.md
-[Lesson 3]: Lessons/Lesson3.md
-[Lesson 4]: Lessons/Lesson4.md
-[Lesson 5]: Lessons/Lesson5.md
-[Lesson 6]: Lessons/Lesson6.md
-[Lesson 7]: Lessons/Lesson7.md
-[Lesson 8]: Lessons/Lesson8.md
-[Lesson 9]: Lessons/Lesson9.md
-[Lesson 10]: Lessons/Lesson10.md
-[Lesson 11]: Lessons/Lesson11.md
-[Lesson 12]: Lessons/Lesson12.md
+[Stacks]: Lessons/stacks.md
 
 ## Assignment Schedule 
 

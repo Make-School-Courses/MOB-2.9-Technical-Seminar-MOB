@@ -2,7 +2,7 @@
 
 ## Course Description
 
-This course is designed to be a seminar. Learning should be experimental, with the help of in-class activities, presentations and discussions. Students will practice interview questions in order to prepare for their technical interviews. Students will practice going through the three phases of interview topics: conceptual questions that you would recieve on a phone screener, algorithmic questions that you would need to solve via a shared development environment while talking through your thought process, and completing take-home projects with realistic timeframes. Additionally, students will get more practice utilizing the Low Level Debugger (LLDB) to debug their applications, learning new techniques and commands to increase their debugging efficiency.
+This course is designed to be a seminar. Learning should be experimental, with the help of in-class activities, presentations and discussions. Students will practice interview questions in order to prepare for their technical interviews. Students will practice going through the three phases of interview topics: conceptual questions that you would receive on a phone screener, algorithmic questions that you would need to solve via a shared development environment while talking through your thought process, and completing take-home projects with realistic timeframes. Additionally, students will get more practice utilizing the Low Level Debugger (LLDB) to debug their applications, learning new techniques and commands to increase their debugging efficiency.
 
 The class will culminate in a live mock interview with the instructor, putting everything you learned to test in a simulation of a real interview scenario.
 
@@ -44,7 +44,7 @@ Students by the end of the course will be able to ...
 
 [Stacks]: Lessons/stacks.md
 
-## Assignment Schedule 
+## Assignment Schedule
 
 **[INSTRUCTOR NOTE] REPLACE THE BELOW WITH LINKS TO YOUR ASSIGNMENTS, CORRECT DATES, AND SUBMISSION FORM**
 
@@ -69,7 +69,7 @@ To pass this course you must meet the following requirements:
 - [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
 - [Grading System](https://make.sc/grading-system) - How grading is done at Make School
 - [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct 
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct
 - [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
 - [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
 - [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students

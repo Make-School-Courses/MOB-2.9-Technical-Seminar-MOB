@@ -55,9 +55,10 @@ Students by the end of the course will be able to ...
 | [Interview Screencast] #1                                  |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
 | [Interview Screencast] #2                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
 | [Take-Home Project] #1                     |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Take-Home Project] #2                     |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
+| [Take-Home Project #2]                     |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
 
 [Interview Screencast]:./Assignments/interview-screencast.md
+[Take-Home Project #2]:./Assignments/take-home-2.md
 
 ## Evaluation
 To pass this course you must meet the following requirements:

@@ -47,8 +47,6 @@ Students by the end of the course will be able to ...
 
 ## Assignment Schedule
 
-**[INSTRUCTOR NOTE] REPLACE THE BELOW WITH LINKS TO YOUR ASSIGNMENTS, CORRECT DATES, AND SUBMISSION FORM**
-
 |                        Assignment                         | Date Assigned |   Due Date   |            Submission Form           |
 |:---------------------------------------------------------:|:-------------:|:------------:|:------------------------------------:|
 | [Conceptual Questions Worksheet]                        |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |

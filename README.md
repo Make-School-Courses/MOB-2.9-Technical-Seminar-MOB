@@ -28,7 +28,7 @@ Students by the end of the course will be able to ...
 | Class |          Date          |                 Topics                  |
 |:-----:|:----------------------:|:---------------------------------------:|
 |  - |  Mon, January 20               | **NO CLASS** - MLK Day |
-|  1 |  Wed, January 22               | Conceptual Questions |
+|  1 |  Wed, January 22               | [Conceptual Questions] |
 |  2 |  Mon, January 27               | [Arrays/Dictionaries/Complexity] |
 |  3 |  Wed, January 29               | Linked Lists |
 |  4 |  Mon, February 3               | [Stacks] |
@@ -42,6 +42,7 @@ Students by the end of the course will be able to ...
 | 12 |  Mon, March 2                  | Mock Interviews Day 1 |
 | 13 |  Wed, March 4                  | Mock Interviews Day 2 |
 
+[Conceptual Questions]: Lessons/concepts.md
 [Stacks]: Lessons/stacks.md
 [Arrays/Dictionaries/Complexity]: Lessons/arrays-dict-complex.md
 

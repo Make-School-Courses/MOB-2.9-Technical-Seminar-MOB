@@ -48,17 +48,15 @@ Students by the end of the course will be able to ...
 
 ## Assignment Schedule
 
-**[INSTRUCTOR NOTE] REPLACE THE BELOW WITH LINKS TO YOUR ASSIGNMENTS, CORRECT DATES, AND SUBMISSION FORM**
-
 |                        Assignment                         | Date Assigned |   Due Date   |            Submission Form           |
 |:---------------------------------------------------------:|:-------------:|:------------:|:------------------------------------:|
-| [Conceptual Questions Worksheet]                        |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Interview Screencast] #1                                  |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Interview Screencast] #2                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Take-Home Project] #1                     |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Take-Home Project #2]                     |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
+| [Take-Home Project #1]                     |  Wed, 1/29    |  Mon, 2/3   | [Submit Assignment](makeschool.com)  |
+| [Interview Screencast] #1                                  |  Wed, 2/5    |  Mon, 2/10   | [Submit Assignment](makeschool.com)  |
+| [Take-Home Project #2]                     |  Wed, 2/12    |  Mon, 2/19   | [Submit Assignment](makeschool.com)  |
+| [Interview Screencast] #2                      |  Mon, 2/24    |  Fri, 2/28     | [Submit Assignment](makeschool.com)  |
 
 [Interview Screencast]:./Assignments/interview-screencast.md
+[Take-Home Project #1]:./Assignments/take-home-1.md
 [Take-Home Project #2]:./Assignments/take-home-2.md
 
 ## Evaluation

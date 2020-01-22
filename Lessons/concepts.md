@@ -63,7 +63,7 @@ A synchronous task waits until the task is completed. An asynchronous task is do
 
 <details>
 <summary>
-What is the difference between strong and week references?
+What is the difference between strong and weak references?
 </summary>
 Strong means that the reference count will increase and
 the reference to it will be maintained through the life of the object.
@@ -190,7 +190,7 @@ For each question, everyone gives their point of view and discuss over agreement
 1. What is the best persistence method to use in an app?
 1. Best method to build the interface (UI) of an app?
 1. How important is it to write unit and UI tests before submitting an app to the store?
-1. How much of these concepts does an iOS dev needs to know to get a job?
+1. How much of these concepts does an iOS dev need to know to get a job?
 
 ## Mock interviews
 
@@ -220,4 +220,4 @@ Each student will play both roles (twice?). Once a round has been made, you'll s
 
 Start the first take home project. Pay attention to how much time it takes you to complete all of it.
 
-[Take home project 1](Assignments/take-home-1.md)
+[Take home project 1](https://github.com/Make-School-Courses/MOB-2.9-Technical-Seminar-MOB/blob/master/Assignments/take-home-1.md)

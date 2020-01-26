@@ -30,9 +30,9 @@ Students by the end of the course will be able to ...
 |  - |  Mon, January 20               | **NO CLASS** - MLK Day |
 |  1 |  Wed, January 22               | [Conceptual Questions] |
 |  2 |  Mon, January 27               | [Arrays/Dictionaries/Complexity] |
-|  3 |  Wed, January 29               | Linked Lists |
+|  3 |  Wed, January 29               | [Linked Lists] |
 |  4 |  Mon, February 3               | [Stacks] |
-|  5 |  Wed, February 5               | Queues |
+|  5 |  Wed, February 5               | [Queues] |
 |  6 |  Mon, February 10              | Trees |
 |  7 |  Wed, February 12              | Binary Search |
 |  8 |  Mon, February 17              | Sorting Algorithms |
@@ -45,6 +45,8 @@ Students by the end of the course will be able to ...
 [Conceptual Questions]: Lessons/concepts.md
 [Stacks]: Lessons/stacks.md
 [Arrays/Dictionaries/Complexity]: Lessons/arrays-dict-complex.md
+[Linked Lists]: Lessons/linked-lists.md
+[Queues]: Lessons/queues.md
 
 ## Assignment Schedule
 

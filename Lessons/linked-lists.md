@@ -307,3 +307,9 @@ Write a function that removes all occurrences of a given element in a linked lis
 // after removing all occurrences of 8
 1 -> 6 -> 4
 ```
+
+<!-- > -->
+
+## Resources
+
+Data Structures & Algorithms in Swift. By Matthijs Hollemans

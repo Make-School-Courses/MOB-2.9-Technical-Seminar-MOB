@@ -22,9 +22,9 @@ By the end of this lesson, you should be able to...
 
 ## Arrays
 
-<img width="600" src="./assets/array.jpg">
+<img width="600" src="./assets/array.JPG">
 
-**Arrays** are a way to store a comma-separted list of values. We use square brackets `[ ]` to denoate an array:
+**Arrays** are a way to store a comma-separated list of values. We use square brackets `[ ]` to denote an array:
 
 ```swift
 let food = ["hamburgers", "bananas", "noodles"]

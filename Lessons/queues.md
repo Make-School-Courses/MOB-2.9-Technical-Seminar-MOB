@@ -201,14 +201,9 @@ Explain the difference between a stack and a queue. Provide two real-life exampl
 
 ## Interview Challenge #2 - from Data Structures and Algorithms in Swift
 
-Given the following queue
-|   Queue  |
-|:-----:|
-|H   |
-|E |   
-|L |
-|L |
-|O |
+Given the following queue<br>
+
+|  H  |  E  |  L  |  L  |  O  |
 
 Provide step-by-step diagrams showing how the following series of commands affects the queue:
 

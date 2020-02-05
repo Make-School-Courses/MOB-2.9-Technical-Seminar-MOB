@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Syllabus Template Slides</title>
+    <link rel="stylesheet" href="./css/reveal.css" />
+    <link rel="stylesheet" href="./css/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="./assets/Reveal/makeschool.css" />
+
+    <script>
+      document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
+# Linked Lists
+
+<!-- Put a link to the slides so that students can find them -->
+
+➡️ [**Slides**](/MOB-2.9-Technical-Seminar-MOB/Slides/linked-lists.html ':ignore')
+</script></section><section  data-markdown><script type="text/template">
+## Learning Objectives
+
+By the end of this lesson, you should be able to...
+
+1. Review how to implement linked lists and their methods
+1. Practice interview questions that use linked lists
+</script></section><section  data-markdown><script type="text/template">
+## Linked List
+
+A collection of values arranged in a linear sequence.
+
+![linkedlist](assets/linkedlist.png)
+</script></section><section ><section data-markdown><script type="text/template">
+A linked list is a chain of nodes. Every **node** has 2 responsibilities:
+
+- Hold a value
+- Hold a reference to the next node.
+
+A **nil** value represents the end of the list.
+</script></section><section data-markdown><script type="text/template">
+Open a new playground and add a new file: **Node.swift**
+
+```swift
+public class Node<T> {
+    public var value: T
+    public var next: Node?
+
+    public init(value: T, next: Node? = nil) {
+        self.value = value
+        self.next = next
+    }
+}
+```
+</script></section><section data-markdown><script type="text/template">
+Include this helper extension to print it to console.
+
+```swift
+extension Node: CustomStringConvertible {
+    public var description: String {
+        guard let next = next else {
+            return "\(value)"
+        }
+        return "\(value) -> " + String(describing: next) + " "
+    }
+}
+```
+<!-- > -->
+
+## Creating the linked list
+
+Create a new file **LinkedList.swift**
+
+```swift
+public struct LinkedList<T> {
+
+  public var head: Node<T>?
+  public var tail: Node<T>?
+
+  public init() {}
+
+  public var isEmpty: Bool {
+    return head == nil
+  }
+}
+```
+</script></section><section data-markdown><script type="text/template">Add the following helper extension to print the list in console.
+
+```swift
+extension LinkedList: CustomStringConvertible {
+
+  public var description: String {
+    guard let head = head else {
+      return "Empty list"
+    }
+    return String(describing: head)
+  }
+}
+```
+</script></section><section data-markdown><script type="text/template">
+Adding values to the list:
+
+- **push:** Adds a value at the beginning of the list
+- **append:** Adds a value at the end of the list.
+- **insert(after:):** Adds a value after a specific node.
+</script></section><section data-markdown><script type="text/template">
+## Push
+
+Adding at the beginning of the list (head-first insertion).
+
+```swift
+public mutating func push(_ value: T) {
+  head = Node(value: value, next: head)
+  if tail == nil {
+    tail = head //In case of an empty list
+  }
+}
+```
+</script></section><section data-markdown><script type="text/template">
+## Append
+
+Adds a value at the end of the list (tail-end insertion).
+
+```swift
+public mutating func append(_ value: T) {
+    guard !isEmpty else {
+      push(value)
+      return
+    }
+    tail!.next = Node(value: value)
+    tail = tail!.next
+}
+```
+</script></section><section data-markdown><script type="text/template">
+## Insert after
+
+Inserts a value in a specific place in the list.
+
+- First find the node
+- Then insert the new node
+
+```swift
+public func node(at index: Int) -> Node<T>? {
+    var currentNode = head
+    var currentIndex = 0
+
+    while currentNode != nil && currentIndex < index {
+      currentNode = currentNode!.next
+      currentIndex += 1
+    }
+  return currentNode
+}
+```
+</script></section><section data-markdown><script type="text/template">
+```swift
+@discardableResult public mutating func insert(_ value: T, after node: Node<T>) -> Node<T> {
+    guard tail !== node else {
+      append(value)
+      return tail!
+    }
+    node.next = Node(value: value, next: node.next)
+    return node.next!
+}
+```
+</script></section></section><section  data-markdown><script type="text/template">
+## Analysis
+
+|       | push | append | insert after | node at |
+|:-----:|:----:|:------:|:------------:|:-------:|
+|action |      |        |              |         |
+|time complexity |      |              |         |
+</script></section><section  data-markdown><script type="text/template">
+## Activity in pairs
+
+Add the removing operations in the linked list.
+
+- **pop:** Removes the first node.
+- **removeLast:** Removes the last node.
+- **remove(at:):** Removes a value at a specific index
+
+```swift
+@discardableResult public mutating func pop() -> T? {
+
+}
+
+@discardableResult public mutating func removeLast() -> T? {
+
+}
+
+@discardableResult public mutating func remove(after node: Node<T>) -> T? {
+
+}
+```
+<!--
+Solution:
+@discardableResult public mutating func pop() -> T? {
+        defer {
+            head = head?.next
+            if isEmpty {
+                tail = nil
+            }
+        }
+        return head?.value
+    }
+
+    @discardableResult public mutating func removeLast() -> T? {
+        guard let head = head else {
+            return nil
+        }
+        guard head.next != nil else {
+            return pop()
+        }
+        var prev = head
+        var current = head
+        while let next = current.next {
+            prev = current
+            current = next
+        }
+        prev.next = nil
+        tail = prev
+        return current.value
+    }
+
+    @discardableResult public mutating func remove(after node: Node<T>) -> T? {
+      defer {
+        if node.next === tail {
+          tail = node
+        }
+        node.next = node.next?.next
+      }
+      return node.next?.value
+    }
+-->
+</script></section><section  data-markdown><script type="text/template">
+## Analysis
+
+|       | pop | removeLast | remove after |
+|:-----:|:----:|:------:|:---------------:|
+|action |      |        |                 |         
+|time complexity |      |                 |         
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="#087CB8" -->
+## [**10m**] BREAK
+</script></section><section ><section data-markdown><script type="text/template">
+## Interview Challenge #1 - from Data Structures and Algorithms in Swift
+
+Given a linked list as your input, write a function that prints the nodes in reverse order. You should not use recursion to solve this problem.
+
+</script></section><section data-markdown><script type="text/template">
+## Interview Challenge #2 - from Data Structures and Algorithms in Swift
+
+Given a linked list, write a function that returns the middle node.
+
+```
+1 -> 2 -> 3 -> nil
+// return 2
+
+1 -> 2 -> 3 -> 4 -> nil
+// return 3
+
+```
+</script></section><section data-markdown><script type="text/template">
+## Interview Challenge #3 - from Data Structures and Algorithms in Swift
+
+Write a function that takes 2 sorted linked lists and merges them into one.
+
+```
+1 -> 5 -> 8 -> 10
+0 -> 2 -> 6 -> 11
+
+//merges into
+
+0 -> 1 -> 2 -> 5 -> 6 -> 8 -> 10 -> 11
+```
+</script></section><section data-markdown><script type="text/template">
+## Interview Challenge #4 - from Data Structures and Algorithms in Swift
+
+Write a function that removes all occurrences of a given element in a linked list.
+
+```
+1 -> 6 -> 8 -> 8 -> 4
+
+// after removing all occurrences of 8
+1 -> 6 -> 4
+```
+</script></section></section><section  data-markdown><script type="text/template">
+## Resources
+
+Data Structures & Algorithms in Swift. By Matthijs Hollemans
+</script></section></div>
+    </div>
+
+    <script src="./js/reveal.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './plugin/zoom-js/zoom.js', async: true },
+        { src: './plugin/notes/notes.js', async: true },
+        { src: './plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"autoPlayMedia":false,"slideNumber":"c/t","showSlideNumber":"all","controlsTutorial":true,"controlsLayout":"edges","transition":"slide","transitionSpeed":"medium","minScale":0.5,"maxScale":3}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>

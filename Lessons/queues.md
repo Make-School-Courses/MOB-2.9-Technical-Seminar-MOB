@@ -18,13 +18,19 @@ By the end of this lesson, you should be able to...
 
 ## Queue
 
-Queues use FIFO.
-
-The first item added to the queue will be the first to be removed.
-
-Use queues when it's important to keep the ordering of elements to process later.
+![queue](assets/queue.gif)
 
 <!-- > -->
+
+- Queues use **FIFO**. The first item added to the queue will be the first to be removed.
+
+- Use queues when it's important to keep the ordering of elements to process later.
+
+- Good for scheduling (data transfer, downloading files)-> Concurrency in iOS is achieved using queues.
+
+<!-- > -->
+
+We can create queues using arrays, stacks and linked lists. So we'll establish a protocol so that the queue implementation is available for all.
 
 ```swift
 public protocol Queue {
@@ -50,139 +56,182 @@ public protocol Queue {
 
 <!-- > -->
 
-## Analysis
-
-|       | push | append | insert after | node at |
-|:-----:|:----:|:------:|:------------:|:-------:|
-|action |      |        |              |         |
-|time complexity |      |              |         |
-
-<!-- > -->
-
-## Activity in pairs
-
-Add the removing operations in the linked list.
-
-- **pop:** Removes the first node.
-- **removeLast:** Removes the last node.
-- **remove(at:):** Removes a value at a specific index
-
 ```swift
-@discardableResult public mutating func pop() -> T? {
-
+public struct QueueArray<T>: Queue {
+    private var array: [T] = []
+    public init() {}
+    public var isEmpty: Bool {
+        return array.isEmpty
+    }
+    public var peek: T? {
+        return array.first
+    }
+    public mutating func enqueue(_ element: T) -> Bool {
+        array.append(element)
+        return true
+    }
+    public mutating func dequeue() -> T? {
+        return isEmpty ? nil : array.removeFirst()
+    }
 }
 
-@discardableResult public mutating func removeLast() -> T? {
-
-}
-
-@discardableResult public mutating func remove(after node: Node<T>) -> T? {
-
+extension QueueArray: CustomStringConvertible {
+    public var description: String {
+        return String(describing: array)
+    }
 }
 ```
-<!--
-Solution:
-@discardableResult public mutating func pop() -> T? {
-        defer {
-            head = head?.next
-            if isEmpty {
-                tail = nil
-            }
-        }
-        return head?.value
-    }
 
-    @discardableResult public mutating func removeLast() -> T? {
-        guard let head = head else {
-            return nil
-        }
-        guard head.next != nil else {
-            return pop()
-        }
-        var prev = head
-        var current = head
-        while let next = current.next {
-            prev = current
-            current = next
-        }
-        prev.next = nil
-        tail = prev
-        return current.value
-    }
+<!-- > -->
 
-    @discardableResult public mutating func remove(after node: Node<T>) -> T? {
-      defer {
-        if node.next === tail {
-          tail = node
-        }
-        node.next = node.next?.next
-      }
-      return node.next?.value
-    }
--->
+Try it out
+
+|   Queue  |
+|:-----:|
+|Mexico   |
+|Peru |   
+|Argentina |
+|Colombia |
+
+Then call dequeue.
+Then peek.
 
 <!-- > -->
 
 ## Analysis
 
-|       | pop | removeLast | remove after |
-|:-----:|:----:|:------:|:---------------:|
-|action |      |        |                 |         
-|time complexity |      |                 |         
+|       | Best case | Worst case |
+|:-----:|:----:|:------:|
+|enqueue |       |               |   
+| dequeue |      |              |   
+| space |        |              |   
+
+<!-- > -->
+
+- What are the benefits of the array implementation?
+- What are inefficiencies you identify?
+
+<!-- > -->
+
+## Double Stack Implementation
+
+```swift
+public struct QueueStack<T> : Queue {
+  private var leftStack: [T] = []
+  private var rightStack: [T] = []
+  public init() {}
+}
+```
+
+<!-- > -->
+
+Whenever we enqueue an element, it goes in the right stack.
+When we dequeue an element, first we reverse the right stack and place it in the left stack so that we can get the elements in FIFO order.
+
+<!-- > -->
+
+## Complete the double stack implementations
+
+In pairs, complete the following methods
+```
+public var isEmpty: Bool {
+}
+
+public var peek: T? {
+}
+
+public mutating func enqueue(_ element: T) -> Bool {
+}
+
+public mutating func dequeue() -> T? {
+}
+
+//Extension needed to debug
+extension QueueStack: CustomStringConvertible {
+  public var description: String {
+    let printList = leftStack.reversed() + rightStack
+    return String(describing: printList)
+  }
+}
+```
+
+<!-- > -->
+
+
+Try it out
+
+|   Queue  |
+|:-----:|
+|Mexico   |
+|Peru |   
+|Argentina |
+|Colombia |
+
+Then call dequeue.
+Then peek.
+
+<!-- > -->
+
+## Analysis
+
+|       | Best case | Worst case |
+|:-----:|:----:|:------:|
+|enqueue |       |               |   
+| dequeue |      |              |   
+| space |        |              |   
+
+<!-- > -->
+
+How is this approach better than the previous one?
 
 <!-- > -->
 
 <!-- .slide: data-background="#087CB8" -->
+
 ## [**10m**] BREAK
 
 <!-- > -->
 
 ## Interview Challenge #1 - from Data Structures and Algorithms in Swift
 
-Given a linked list as your input, write a function that prints the nodes in reverse order. You should not use recursion to solve this problem.
+Explain the difference between a stack and a queue. Provide two real-life examples for each data structure.
 
 
 <!-- v -->
 
 ## Interview Challenge #2 - from Data Structures and Algorithms in Swift
 
-Given a linked list, write a function that returns the middle node.
+Given the following queue
+|   H    | E | L| L | O |
+|:-----:|:----:|:------: |:------:|:------:|
+
+Provide step-by-step diagrams showing how the following series of commands affects the queue:
 
 ```
-1 -> 2 -> 3 -> nil
-// return 2
-
-1 -> 2 -> 3 -> 4 -> nil
-// return 3
-
+enqueue("W")
+enqueue("O")
+dequeue()
+enqueue("R")
+dequeue()
+dequeue()
+enqueue("L")
+enqueue("D")
 ```
+
+Do it for the array based queue and the double stack.
 
 <!-- v -->
 
 ## Interview Challenge #3 - from Data Structures and Algorithms in Swift
 
-Write a function that takes 2 sorted linked lists and merges them into one.
+Imagine that you are playing a game of Monopoly with your friends. The problem is that everyone always forget whose turn it is! Create a Monopoly organizer that always tells you whose turn it is. Below is a protocol that you can conform to.
 
 ```
-1 -> 5 -> 8 -> 10
-0 -> 2 -> 6 -> 11
+protocol BoardGameManager {
 
-//merges into
-
-0 -> 1 -> 2 -> 5 -> 6 -> 8 -> 10 -> 11
-```
-
-<!-- v -->
-
-## Interview Challenge #4 - from Data Structures and Algorithms in Swift
-
-Write a function that removes all occurrences of a given element in a linked list.
-
-```
-1 -> 6 -> 8 -> 8 -> 4
-
-// after removing all occurrences of 8
-1 -> 6 -> 4
+  associatedtype Player
+  mutating func nextPlayer() -> Player?
+}
 ```
 
 <!-- > -->

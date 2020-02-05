@@ -204,11 +204,11 @@ Explain the difference between a stack and a queue. Provide two real-life exampl
 Given the following queue
 |   Queue  |
 |:-----:|
-|H   |
-|E |   
-|L |
-|L |
-|O |
+|H      |
+|E      |   
+|L      |
+|L      |
+|O      |
 
 Provide step-by-step diagrams showing how the following series of commands affects the queue:
 

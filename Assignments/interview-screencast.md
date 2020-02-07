@@ -14,20 +14,24 @@ By completing this project, you should be able to…
 1. Showcase your interview communication skills by talking through your thought process
 1. Demonstrate interview best practices such as testing your code, and optimizing it if needed
 
-
 ## Problem to Solve
 
 ### Screencast Interview #1
 
-**TODO:** Put problem here
+**Longest consecutive sequence**
 
-### Screencast Interview #2
+Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+The algorithm should run in O(n) complexity.
 
-**TODO:** Put problem here
-    
+Example:
+
+**Input**: [100, 4, 200, 1, 3, 2]
+**Output**: 4
+**Explanation**: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefore its length is 4.
+
 ## Requirements
 
-1. Provide a working solution to the problem given by using [Coderpad's sandbox](https://coderpad.io/sandbox) 
+1. Provide a working solution to the problem given by using [Coderpad's sandbox](https://coderpad.io/sandbox)
 1. Record a screencast that shows you solving the problem from scratch, and also records audio so that we can hear you talk through it
 1. You must talk about the following Interview Communication steps throughout your recording:
     1. Restate the problem
@@ -38,7 +42,7 @@ By completing this project, you should be able to…
     1. Suggest improvements
 1. You must run through a test of your solution as part of your recording, to prove that it works
 
-### Stretch Requirements/Challenges (Optional)
+### Stretch Requirements/Challenges (Optional, but still in the same video)
 
 1. Provide a list of clarifying questions you would ask if this were a real interview
 1. Explain the runtime analysis of your solution
@@ -66,4 +70,3 @@ Additional resources that will help with this project, or that can be used as re
 
 - [SPD 1.01 repo with interview communication slides/resources](https://github.com/Make-School-Courses/SPD-1.01-Engineering-Careers-1)
 - [Coderpad's Sandbox, where you'll be doing the assignment](https://coderpad.io/sandbox) Select `Swift` from the language dropdown then click the `info` button to learn about how to best utilzie what Coderpad offers
-

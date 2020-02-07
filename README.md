@@ -52,8 +52,8 @@ Students by the end of the course will be able to ...
 
 |                        Assignment                         | Date Assigned |   Due Date   |            Submission Form           |
 |:---------------------------------------------------------:|:-------------:|:------------:|:------------------------------------:|
-| [Take-Home Project #1]                     |  Wed, 1/29    |  Mon, 2/3   | [Submit Assignment](makeschool.com)  |
-| [Interview Screencast] #1                                  |  Wed, 2/5    |  Mon, 2/10   | [Submit Assignment](makeschool.com)  |
+| [Take-Home Project #1]                     |  Wed, 1/29    |  Mon, 2/3   | Link on tracker  |
+| [Interview Screencast] #1                                  |  Fri, 2/7    |  Mon, 2/12 | Upload video to Drive & share with instructor  |
 | [Take-Home Project #2]                     |  Wed, 2/12    |  Mon, 2/19   | [Submit Assignment](makeschool.com)  |
 | [Interview Screencast] #2                      |  Mon, 2/24    |  Fri, 2/28     | [Submit Assignment](makeschool.com)  |
 

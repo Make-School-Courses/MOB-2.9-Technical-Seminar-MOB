@@ -33,7 +33,7 @@ Students by the end of the course will be able to ...
 |  3 |  Wed, January 29               | [Linked Lists] |
 |  4 |  Mon, February 3               | [Stacks] |
 |  5 |  Wed, February 5               | [Queues] |
-|  6 |  Mon, February 10              | Trees |
+|  6 |  Mon, February 10              | [Trees] |
 |  7 |  Wed, February 12              | Binary Search |
 |  8 |  Mon, February 17              | Sorting Algorithms |
 |  9 |  Wed, February 19              | Graphs |
@@ -47,13 +47,14 @@ Students by the end of the course will be able to ...
 [Arrays/Dictionaries/Complexity]: Lessons/arrays-dict-complex.md
 [Linked Lists]: Lessons/linked-lists.md
 [Queues]: Lessons/queues.md
+[Trees]: Lessons/trees.md
 
 ## Assignment Schedule
 
 |                        Assignment                         | Date Assigned |   Due Date   |            Submission Form           |
 |:---------------------------------------------------------:|:-------------:|:------------:|:------------------------------------:|
 | [Take-Home Project #1]                     |  Wed, 1/29    |  Mon, 2/3   | Link on tracker  |
-| [Interview Screencast] #1                                  |  Fri, 2/7    |  Mon, 2/12 | Upload video to Drive & share with instructor  |
+| [Interview Screencast] #1                                  |  Fri, 2/7    |  Wed, 2/12 | Upload video to Drive & share with instructor  |
 | [Take-Home Project #2]                     |  Wed, 2/12    |  Mon, 2/19   | [Submit Assignment](makeschool.com)  |
 | [Interview Screencast] #2                      |  Mon, 2/24    |  Fri, 2/28     | [Submit Assignment](makeschool.com)  |
 

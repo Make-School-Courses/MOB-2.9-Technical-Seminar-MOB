@@ -34,7 +34,7 @@ Students by the end of the course will be able to ...
 |  4 |  Mon, February 3               | [Stacks] |
 |  5 |  Wed, February 5               | [Queues] |
 |  6 |  Mon, February 10              | [Trees] |
-|  7 |  Wed, February 12              | Binary Search |
+|  7 |  Wed, February 12              | [Binary Trees] |
 |  8 |  Mon, February 17              | Sorting Algorithms |
 |  9 |  Wed, February 19              | Graphs |
 | 10 |  Mon, February 24              | LLDB Pt 1|  
@@ -48,6 +48,7 @@ Students by the end of the course will be able to ...
 [Linked Lists]: Lessons/linked-lists.md
 [Queues]: Lessons/queues.md
 [Trees]: Lessons/trees.md
+[Binary Trees]: Lessons/binarytrees.md
 
 ## Assignment Schedule
 

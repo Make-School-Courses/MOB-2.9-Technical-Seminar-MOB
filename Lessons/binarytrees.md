@@ -130,6 +130,7 @@ public func traversePreOrder(visit: (Element) -> Void) {
 **How does this look like graphically?** *On whiteboard*<br>
 
 <!-- > -->
+
 ## Implement Pre-Order Traversal
 
 Compare solutions and test results.

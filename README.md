@@ -67,8 +67,9 @@ Students by the end of the course will be able to ...
 ## Evaluation
 To pass this course you must meet the following requirements:
 
-**TODO**
-
+- Turn in all required assignments.
+- Demonstrate practice from all class content.
+- Complete successfully the final interview.
 
 ## Make School Course Policies
 

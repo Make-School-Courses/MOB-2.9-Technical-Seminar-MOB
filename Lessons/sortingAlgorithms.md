@@ -34,8 +34,6 @@ Completes when you can do a full pass over the collection without swapping value
 
 Worst case: n-1 passes (n = number of elements in the collection)
 
-![binarytree](assets/binarytree.png)
-
 <!-- > -->
 
 ## Implementation
@@ -150,6 +148,7 @@ func insertionSort<T>(_ array: inout [T])
 
 ## Implementation
 
+```swift
 func mergeSort<T>(_ array: [T])
     -> [t] where T: Comparable {
   let middle = array.count / 2
@@ -157,7 +156,7 @@ func mergeSort<T>(_ array: [T])
   let right = Array(array[middle...])
   // ...
 }
-
+```
 <aside class="notes">
 Split array into halves. But this needs to happen recursively until we can't split anymore. Update this to have it split recursively.
 </aside>

@@ -3,8 +3,6 @@
 
 <!-- Put a link to the slides so that students can find them -->
 
-<!-- pg 72, pg 327 -->
-
 ➡️ [**Slides**](/MOB-2.9-Technical-Seminar-MOB/Slides/binarytrees.html ':ignore')
 
 <!-- > -->

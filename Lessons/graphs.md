@@ -51,7 +51,7 @@ In a weighted graph, every edge has a weight associated with it. This is the **c
 
 <!-- > -->
 
-## Getting familiar with the source sode
+## Getting familiar with the source code
 
 - Follow source code to identify common operations in Graphs.
 - Identify properties in a vertex. Why make it Hashable and Equatable?

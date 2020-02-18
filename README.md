@@ -72,6 +72,10 @@ To pass this course you must meet the following requirements:
 - Demonstrate practice from all class content.
 - Complete successfully the final interview.
 
+## Resources
+
+- [Algorithm Visualizations](https://visualgo.net/en)
+
 ## Make School Course Policies
 
 - [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.

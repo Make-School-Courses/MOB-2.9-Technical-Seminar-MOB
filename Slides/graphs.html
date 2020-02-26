@@ -18,139 +18,73 @@
   <body>
     <div class="reveal">
       <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# Binary Trees
+# Graphs
 
 <!-- Put a link to the slides so that students can find them -->
 
-➡️ [**Slides**](/MOB-2.9-Technical-Seminar-MOB/Slides/binarytrees.html ':ignore')
+➡️ [**Slides**](/MOB-2.9-Technical-Seminar-MOB/Slides/graphs.html ':ignore')
 </script></section><section  data-markdown><script type="text/template">
 ## Learning Objectives
 
 By the end of this lesson, you should be able to...
 
-1. Review how to implement binary trees and their methods
-1. Practice interview questions that use binary trees
+1. Review how to implement graph algorithms
+1. Practice interview questions with graphs
 </script></section><section  data-markdown><script type="text/template">
-## Binary tree
+## Graph
 
-A tree un which each node has **at most two children**
+- Data structure that captures a relationship between object.
+- Made up of **vertices** connected by **edges**
 
-Often referred to as *left* and *right* children.
-
-![binarytree](assets/binarytree.png)
+![graph](assets/graph.png)
 </script></section><section  data-markdown><script type="text/template">
-## Implementation
+## Weighted graphs
 
-Create a `BinaryNode` class and add:
+In a weighted graph, every edge has a weight associated with it. This is the **cost** of using that edge.
 
-- `value` property
-- `leftChild` property
-- `rightChild` property
-- initializer
+- Can choose the cheapest or shortest path between two vertices.
 
-<!--
-public class BinaryNode<Element> {
-
-  public var value: Element
-  public var leftChild: BinaryNode?
-  public var rightChild: BinaryNode?
-
-  public init(value: Element) {
-    self.value = value
-  }
-}
--->
+**Airline industry example** Vertices can represent a state/country and edges the route from one place to another. Weight is the price of the flight.
 </script></section><section  data-markdown><script type="text/template">
-## An example
+## Directed graphs
 
-Create a tree that matches this graphical representation.
+- Graphs can have a direction.
+- Makes them more restrictive to traverse.
 
-![btreeExample](assets/btreeExample.png)
+**Airline industry example**
 </script></section><section  data-markdown><script type="text/template">
-## Traversing the tree
+## Undirected graphs
 
-**In-order traversal**
-
-- Start at the root node.
-- If the current node has a left child, recursively visit this child first.
-- Then visit the node itself.
-- If the current node has a right child, recursively visit this child.
-
-**How does this look like graphically?** *On whiteboard*<br>
-**What do you notice about this traversal?**
-<!-- It prints the tree in ascending order-->
+- Two connected vertices have edges going back and forth.
+- The weight of an edge applies to both directions.
 </script></section><section  data-markdown><script type="text/template">
-## Implement In-Order Traversal
+## Getting familiar with the source code
 
-Compare solutions and test results.
-
-```swift
-tree.traverseInOrder { print($0) }
-```
-
-<!--
-public func traverseInOrder(visit: (Element) -> Void) {
-    leftChild?.traverseInOrder(visit: visit)
-    visit(value)
-    rightChild?.traverseInOrder(visit: visit)
-  }
--->
+- Follow source code to identify common operations in Graphs.
+- Identify properties in a vertex. Why make it Hashable and Equatable?
+- Identify properties in an edge.
 </script></section><section  data-markdown><script type="text/template">
-**Pre-order traversal**
+## An adjacency list
 
-- Always visits the current node first.
-- Then recursively visits the left child.
-- Then recursively visits the right child.
+For every vertex in the graph, the graph stores a list of outgoing edges.
 
-**How does this look like graphically?** *On whiteboard*<br>
+**Airline industry example (whiteboard)**
+
+What can we learn with the list?
 </script></section><section  data-markdown><script type="text/template">
-## Implement Pre-Order Traversal
+## Implement the adjacency list
 
-Compare solutions and test results.
+Follow the protocol stubs in the file.
 
-```swift
-tree.traversePreOrder { print($0) }
-```
-
-<!--
-public func traversePreOrder(visit: (Element) -> Void) {
-  visit(value)
-  leftChild?.traversePreOrder(visit: visit)
-  rightChild?.traversePreOrder(visit: visit)
-}
--->
+Then build the graph and print the adjacency list for the Airline example.
 </script></section><section  data-markdown><script type="text/template">
-**Post-order traversal**
-
-- Visits the left child recursively
-- Visits the right child recursively
-- Visits the current node
-
-**How does this look like graphically?** *On whiteboard*<br>
-</script></section><section  data-markdown><script type="text/template">
-## Implement Pre-Order Traversal
-
-Compare solutions and test results.
-
-```swift
-tree.traversePostOrder { print($0) }
-```
-
-<!--
-public func traversePostOrder(visit: (Element) -> Void) {
-  leftChild?.traversePostOrder(visit: visit)
-  rightChild?.traversePostOrder(visit: visit)
-  visit(value)
-}
--->
-</script></section><section  data-markdown><script type="text/template">
-<!-- .slide: data-background="#087CB8" -->
-
 ## [**10m**] BREAK
 </script></section><section  data-markdown><script type="text/template">
 ## Interview Challenge #1 - from Data Structures and Algorithms in Swift
 
-Given a binary tree, find the height of the tree. The height of the binary tree is determined by the distance between the root and the furthest leaf. The height of a binary tree with a single node is zero, since the single node is both the root and the furthest leaf.
+Vincent has three friends, Chesley, Ruiz and Patrick. Ruiz has friends as well: Ray, Sun, and a mutual friend of Vincent’s. Patrick is friends with Cole and Kerry. Cole is friends with Ruiz and Vincent.
+
+Create an adjacency list that represents this friendship graph. Which mutual friend do Ruiz and Vincent share?
 </script></section></div>
     </div>
 

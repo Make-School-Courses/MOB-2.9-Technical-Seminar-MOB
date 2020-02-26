@@ -36,9 +36,9 @@ Students by the end of the course will be able to ...
 |  6 |  Mon, February 10              | [Trees] |
 |  7 |  Wed, February 12              | [Binary Trees] |
 |  8 |  Mon, February 17              | [Sorting Algorithms] |
-|  9 |  Wed, February 19              | [Graphs] |
-| 10 |  Mon, February 24              | LLDB Pt 1|  
-| 11 |  Wed, February 26              | LLDB Pt 2|
+|  9 |  Wed, February 19              | Merge Sort |
+| 10 |  Mon, February 24              | [Graphs] |  
+| 11 |  Wed, February 26              | [LLDB] |
 | 12 |  Mon, March 2                  | Mock Interviews Day 1 |
 | 13 |  Wed, March 4                  | Mock Interviews Day 2 |
 
@@ -51,6 +51,7 @@ Students by the end of the course will be able to ...
 [Binary Trees]: Lessons/binarytrees.md
 [Sorting Algorithms]: Lessons/sortingAlgorithms.md
 [Graphs]: Lessons/graphs.md
+[LLDB]: Lessons/lldb.md
 
 ## Assignment Schedule
 

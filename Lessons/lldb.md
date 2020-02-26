@@ -2,7 +2,7 @@
 # Debugging
 <!-- Put a link to the slides so that students can find them -->
 
-➡️ [**Slides**](/MOB-2.9-Technical-Seminar-MOB/Slides/lldb.html ':ignore')
+➡️ [**Slides**](/MOB-2.9-Technical-Seminar-MOB/Slides/lldb.html':ignore')
 
 <!-- > -->
 

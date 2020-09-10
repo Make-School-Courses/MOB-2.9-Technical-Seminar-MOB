@@ -10,6 +10,12 @@ The class will culminate in a live mock interview with the instructor, putting e
 
 - [CS 1.3](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures)
 
+## Course Specifics
+
+**Course Delivery**: online | 7 weeks | 14 sessions
+
+**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
+
 ## Learning Objectives
 
 Students by the end of the course will be able to ...
@@ -76,6 +82,12 @@ To pass this course you must meet the following requirements:
 ## Resources
 
 - [Algorithm Visualizations](https://visualgo.net/en)
+
+##  Information Resources
+
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+
+- [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
 

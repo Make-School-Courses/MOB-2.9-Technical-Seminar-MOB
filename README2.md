@@ -23,8 +23,6 @@ This course focuses on learning and practicing how to contribute to a code base 
 
 ## Learning Outcomes
 
-### **[INSTRUCTOR NOTE: PLEASE LIST (3-5) LEARNING OUTCOMES]**
-
 By the end of the course, you will be able to ...
 
 1. Follow a given development workflow within a team (git, code reviews, pull requests)
@@ -33,8 +31,6 @@ By the end of the course, you will be able to ...
 1. Work with an automated Kanban board using GitHub Projects
 
 ## Schedule
-
-**Tu/Th Template [PLEASE REMOVE THIS HEADER BEFORE MARCH 26]**
 
 **Course Dates:** Tuesday, March 30 – Thursday, May 13, 2021 (7 weeks)
 
@@ -86,7 +82,7 @@ Your Gradescope login is your Make School email, and your password can be change
 
 ### Projects
 
-- [Project Specifications](CourseProject.md)
+- [Project Specifications](/Assignments/CourseProject.md)
 
 ## Evaluation
 

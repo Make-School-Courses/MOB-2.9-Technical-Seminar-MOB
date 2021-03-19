@@ -42,14 +42,14 @@ By the end of the course, you will be able to ...
 |  - |  Thu, Apr 1                 | **No Class - Cesar Chavez** |
 |  2 |  Tue, Apr 6                 | [Tools Pt. 2] |
 |  3 |  Thu, Apr 8                 | [Roles and Workflow] & Kick off - Sprint 1 |
-|  4 |  Tue, Apr 13                | Standup + Cowork |
-|  5 |  Thu, Apr 15                | Standup + Cowork |
+|  4 |  Tue, Apr 13                | [Standup + Cowork] |
+|  5 |  Thu, Apr 15                | [Standup + Cowork] |
 |  6 |  Tue, Apr 20                | Standup + Code Reviews |
 |  7 |  Thu, Apr 22                | Kick off - Sprint 2 |
-|  8 |  Tue, Apr 27                | Standup + Cowork |
-|  9 |  Thu, Apr 29                | Standup + Cowork |
+|  8 |  Tue, Apr 27                | [Standup + Cowork] |
+|  9 |  Thu, Apr 29                | [Standup + Cowork] |
 | 10 |  Tue, May 4                 | Code Reviews & Kick off - Sprint 3 |
-| 11 |  Thu, May 6                 | Standup + Cowork |
+| 11 |  Thu, May 6                 | [Standup + Cowork] |
 | 12 |  Tue, May 11                | Standup + Final reviews |
 | 13 |  Thu, May 13                | Team & self assessment + Presentation |
 
@@ -87,13 +87,10 @@ Your Gradescope login is your Make School email, and your password can be change
 
 ## Evaluation
 
-**[INSTRUCTOR NOTE] REPLACE THE BELOW WITH EVALUATIONS THAT PERTAIN TO YOUR COURSE. THE BELOW ARE PROVIDED AS A SAMPLE**
-
 To pass this course you must meet the following requirements:
 
-- Individually successfully complete X story points shown in PRs that have been merged to master
-- As a team, deliver a final version of the project that passes the associated rubric
-- Pass the final team and self assessment according to the rubric as specified in this class
+- Passing grade in the [individual rubric]()
+- Passing grade in the [project completion rubric]()
 - Actively participate in class and abide by the attendance policy
 
 ##  Information Resources

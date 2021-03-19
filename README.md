@@ -56,6 +56,7 @@ By the end of the course, you will be able to ...
 [Intro & Tools Pt. 1]: Lessons/Lesson1.md
 [Tools Pt. 2]: Lessons/Lesson2.md
 [Roles and Workflow]: Lessons/Lesson3.md
+[Standup + Cowork]: Lessons/Lesson4.md
 
 ## Assignment Schedule
 

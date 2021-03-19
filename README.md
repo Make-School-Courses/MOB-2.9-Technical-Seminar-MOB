@@ -53,10 +53,10 @@ By the end of the course, you will be able to ...
 | 12 |  Tue, May 11                | Standup + Final reviews |
 | 13 |  Thu, May 13                | Team & self assessment + Presentation |
 
-[Intro & Tools Pt. 1]: Lessons/Lesson1.md
-[Tools Pt. 2]: Lessons/Lesson2.md
-[Roles and Workflow]: Lessons/Lesson3.md
-[Standup + Cowork]: Lessons/Lesson4.md
+[Intro & Tools Pt. 1]: Lessons/Lesson1/Lesson1.md
+[Tools Pt. 2]: Lessons/Lesson2/Lesson2.md
+[Roles and Workflow]: Lessons/Lesson3/Lesson3.md
+[Standup + Cowork]: Lessons/Lesson4/Lesson4.md
 
 ## Assignment Schedule
 
@@ -91,7 +91,7 @@ Your Gradescope login is your Make School email, and your password can be change
 
 To pass this course you must meet the following requirements:
 
-- Complete all 3 sprints
+- Individually successfully complete X story points shown in PRs that have been merged to master
 - As a team, deliver a final version of the project that passes the associated rubric
 - Pass the final team and self assessment according to the rubric as specified in this class
 - Actively participate in class and abide by the attendance policy

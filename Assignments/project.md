@@ -44,7 +44,7 @@ Tracking the progress of the project will be done using Github boards.
 
 Sprints have already been setup, including due dates. Issues have descriptions and labels to help students with assignation and value estimations.
 
-Here's an example of a [Github board](https://github.com/MOB-2-9/Petulia-Open/projects/1).
+Here's an example of a [Github board](https://github.com/MOB-2-9/Petulia-Open/projects/1).<br>
 Here's a example of the [sprint planning](https://github.com/MOB-2-9/Petulia-Open/milestones).
 
 ### Roles
@@ -71,7 +71,7 @@ Students should choose roles and validate them with the instructor before starti
 
 ## Evaluation
 
-[Project Rubric]()
+[Project Rubric](https://docs.google.com/document/d/1Qw69drjybIPOuhx0ZSLbU1U_2yrTCbxN8kovjofo2y4/edit?usp=sharing)<br>
 [Individual Rubric]()
 
 ## Resources

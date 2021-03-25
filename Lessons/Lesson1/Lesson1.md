@@ -3,21 +3,7 @@
 
 <!-- Put a link to the slides so that students can find them -->
 
-➡️ [**Slides**](/Syllabus-Template/Slides/Lesson1.html ':ignore')
-
-<!-- > -->
-
-## Minute-by-Minute
-
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Course Intro & Project    |
-| 0:20        | 0:30      | Tools: SwiftUI            |
-| 0:50        | 0:10      | BREAK                     |
-| 1:00        | 0:45      | Tools: SwiftUI            |
-| 1:45        | 0:05      | Lab Intro                 |
-| TOTAL       | 1:50      | -                         |
+➡️ [**Slides**](https://make-school-courses.github.io/MOB-2.9-Technical-Seminar-MOB/Slides/Lesson1/README.html ':ignore')
 
 <!-- > -->
 
@@ -88,7 +74,7 @@ You will be onboarded to an existing project. This means:
 
 ## SwiftUI
 
-![swiftui](/assets/swiftui.png)
+![swiftui](assets/swiftui.png)
 
 SwiftUI is an innovative way to build user interfaces across all Apple platforms using Swift.  
 
@@ -107,9 +93,9 @@ Telling SwiftUI **what** we want the UI to look like and work, then it figures o
 
 ## Core Concepts
 
-- 🎨Mastering UI
-- 📱Handling app state and visual updates
-- ⛵️Navigation & passing data
+- 🎨 Mastering UI
+- 📱 Handling app state and visual updates
+- ⛵️ Navigation & passing data
 
 <!-- > -->
 
@@ -170,15 +156,12 @@ In the template contents we have `body` that behaves like a view.
 
 ## Warmup (15 min)
 
-<div id="left">
-
 - Replicate this layout and write your own text at the bottom.
 - Find the thread in our Slack channel and post a screenshot when you are done.
-</div>
 
-<div id="right">
+<!-- > -->
+
 ![warmup](assets/warmup.png)
-</div>
 
 <!-- > -->
 
@@ -356,7 +339,7 @@ Include a Navigation Bar with a title and go to a different view when tapping on
 
 Using SwiftUI to build layouts is powerful. We've done the basics of creating an app in a single class. (Mainly because you already know Swift and the names of UI elements 😎)
 
-If we put together what we know about MVVM, SwiftUI and even Combine, you'll notice how different it is to build apps with this specific stack.
+If we put together what we know about **MVVM**, **SwiftUI** and even **Combine**, you'll notice how different it is to build apps with this specific stack.
 
 <!-- v -->
 

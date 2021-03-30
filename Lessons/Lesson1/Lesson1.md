@@ -1,10 +1,6 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # Intro to Course and Tools
 
-<!-- Put a link to the slides so that students can find them -->
-
-➡️ [**Slides**](https://make-school-courses.github.io/MOB-2.9-Technical-Seminar-MOB/Slides/Lesson1/Lesson1.html ':ignore')
-
 <!-- > -->
 
 ## Learning Objectives
@@ -178,12 +174,6 @@ It's also due to this principle that views can't hold data as it changes. Whenev
 
 <!-- > -->
 
-## In Class Activity (25 min)
-
-[Instructions here](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/05-SwiftUI1/assignments/calculator.md)
-
-<!-- > -->
-
 ## @State variables
 
 `@State` is a property wrapper that tells Swift to handle the storage of a value.
@@ -346,6 +336,14 @@ If we put together what we know about **MVVM**, **SwiftUI** and even **Combine**
 The course project will use these technologies, so it's a good if we practice first.
 
 Start [this tutorial](https://www.raywenderlich.com/4161005-mvvm-with-combine-tutorial-for-ios), we'll finish it next class and discuss the architecture used.
+
+<!-- > -->
+
+## Additional practice
+
+Replicating Apple Calculator's UI
+
+[Instructions here](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/05-SwiftUI1/assignments/calculator.md)
 
 <!-- > -->
 

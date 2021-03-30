@@ -2,9 +2,9 @@
 
 ## Description
 
-Project: Petulia app
+Project: Petulia app - [AppStore link](petulia app)
 
-Mobile app for iOS that helps users find pets available for adoption. Built with SwiftUI and Petfinder's API.
+Mobile app for iOS that helps users find pets available for adoption. Built with SwiftUI and [Petfinder's API](https://www.petfinder.com/developers/).
 
 Github organization hosting the project: [MOB-2-9](https://github.com/MOB-2-9)
 

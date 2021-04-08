@@ -3,8 +3,7 @@
 
 <!-- Put a link to the slides so that students can find them -->
 
-➡️ [**Slides**](/Syllabus-Template/Slides/Lesson2/Lesson2.html ':ignore')
-
+➡️ [**Slides**](https://make-school-courses.github.io/MOB-2.9-Technical-Seminar-MOB/Slides/Lesson2/Lesson2.html ':ignore')
 <!-- > -->
 
 ## Learning Objectives

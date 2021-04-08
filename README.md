@@ -44,11 +44,11 @@ By the end of the course, you will be able to ...
 |  3 |  Thu, Apr 8                 | [Roles and Workflow] & Kick off - Sprint 1 |
 |  4 |  Tue, Apr 13                | [Standup + Cowork] |
 |  5 |  Thu, Apr 15                | [Standup + Cowork] |
-|  6 |  Tue, Apr 20                | Standup + Code Reviews |
-|  7 |  Thu, Apr 22                | Kick off - Sprint 2 |
+|  6 |  Tue, Apr 20                | Standup + Code Reviews & Kick off - Sprint 2 |
+|  7 |  Thu, Apr 22                | [Standup + Cowork] |
 |  8 |  Tue, Apr 27                | [Standup + Cowork] |
 |  9 |  Thu, Apr 29                | [Standup + Cowork] |
-| 10 |  Tue, May 4                 | Code Reviews & Kick off - Sprint 3 |
+| 10 |  Tue, May 4                 | Standup + Code Reviews & Kick off - Sprint 3 |
 | 11 |  Thu, May 6                 | [Standup + Cowork] |
 | 12 |  Tue, May 11                | Standup + Final reviews |
 | 13 |  Thu, May 13                | Team & self assessment + Presentation |
@@ -64,7 +64,7 @@ By the end of the course, you will be able to ...
 |     Assignment          | Date Assigned |   Due Date   |   Submission Form    |
 |:-----------------------:|:-------------:|:------------:|:--------------------:|
 | Tickets from Sprint 1   |  Apr 8        |  Apr 20      | Github Board         |
-| Tickets from Sprint 2   |  Apr 22       |  May 4       | Github Board         |
+| Tickets from Sprint 2   |  Apr 20       |  May 4       | Github Board         |
 | Tickets from Sprint 3   |  May 4        |  May 11      | Github Board         |
 
 ## Class Assignments

@@ -21,7 +21,7 @@ By completing this project, you should be able to:
 |     Assignment          | Date Assigned |   Due Date   |   Submission Form    |
 |:-----------------------:|:-------------:|:------------:|:--------------------:|
 | Tickets from Sprint 1   |  Apr 8        |  Apr 20      | Github Board         |
-| Tickets from Sprint 2   |  Apr 22       |  May 4       | Github Board         |
+| Tickets from Sprint 2   |  Apr 20       |  May 4       | Github Board         |
 | Tickets from Sprint 3   |  May 4        |  May 11      | Github Board         |
 
 ### Team-based

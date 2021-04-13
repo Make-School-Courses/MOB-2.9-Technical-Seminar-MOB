@@ -19,9 +19,9 @@
 
 In a breakout room with your team have a stand up meeting:
 
-1. Accomplishments: What did you complete yesterday?
-2. Goals: What are you working on today?
-3. Obstacles: Is there anything blocking you to achieve today' goals?
+1. 🏆 Accomplishments: What did you complete since last session?
+2. 💪🏼 Goals: What are you working on today?
+3. 🚧 Obstacles: Is there anything blocking you to achieve today' goals?
 
 <!-- > -->
 
@@ -32,6 +32,7 @@ Use this time to:
 - Attend requested meetings (if applicable)
 - Work in breakout rooms (solo/in teams/with a partner)
 - Work in the main room
+- Design interfaces before coding
 - Research before coding
 - Pair program
 - Ask technical questions
@@ -53,4 +54,5 @@ Next class:
 
 ## Lab time (50 min)
 
-More Cowork time or async work 😎
+- More Cowork time or async work 😎
+- If your team allows it, you can also work offline

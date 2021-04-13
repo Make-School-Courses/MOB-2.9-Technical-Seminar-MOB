@@ -43,6 +43,20 @@ Use this time to:
 
 <!-- > -->
 
+## Workflow
+
+Recommended workflow:
+
+- Each feature gets a new branch.
+- To submit your new feature to main, submit a PR.
+- Add another developer to code review your PR.
+- Team lead or Eng Manager approve the PR.
+- You can move on to the next task 😎
+
+When you associate a PR with an issue, the cards should automatically update in the board.
+
+<!-- > -->
+
 ## Wrap Up (5 min)
 
 Next class:

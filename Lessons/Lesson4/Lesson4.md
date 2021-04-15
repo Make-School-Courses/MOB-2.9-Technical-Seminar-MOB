@@ -38,7 +38,7 @@ Use this time to:
 - Ask technical questions
 - Complete assigned tasks
 - Submit PRs
-- Deliver Code Reviews
+- Deliver [Code Reviews](CodeReviewGuide.md)
 - Accept PRs (if that's in your role)
 
 <!-- > -->

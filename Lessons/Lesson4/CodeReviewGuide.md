@@ -87,7 +87,7 @@ Here's what you should look out for:
 
 [7.2]   Files architecture, make sure you follow the project&#39;s files architecture
 
-[7.3]   Styling according to a [Style guide](https://github.com/Make-School-Labs/Swift-Style-Guide/blob/master/SwiftStyleGuide.md).
+[7.3]   Styling according to a [Style guide](http://make.sc/swift-style-guide).
 
 
 Source: https://github.com/FadiOssama/Swift-Code-Review-Checklist

@@ -41,7 +41,7 @@ Use this time to:
 - Deliver [Code Reviews]
 - Accept PRs (if that's in your role)
 
-[Code Reviews]: CodeReviewGuide.md
+[Code Reviews]: /Assignments/CodeReviewGuide.md
 
 <!-- > -->
 

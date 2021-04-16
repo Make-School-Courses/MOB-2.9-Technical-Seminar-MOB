@@ -79,9 +79,12 @@ Your Gradescope login is your Make School email, and your password can be change
 
 - [Github Project Boards](https://youtube.com/playlist?list=PLiO7XHcmTslc5hGrbnnmHIb0SeJLTpOEu)
 
-### Projects
+### Project & Resources
 
 - [Project Specifications](/Assignments/project.md)
+- [Code Review Guide](/Assignments/CodeReviewGuide.md)
+- [Swift Style Guide](http://make.sc/swift-style-guide)
+
 
 ## Evaluation
 
@@ -96,7 +99,6 @@ To pass this course you must meet the following requirements:
 Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
 
 - [make.sc/library](http://make.sc/library)
-- [Swift Style Guide](http://make.sc/swift-style-guide)
 
 ## Interview Topics
 

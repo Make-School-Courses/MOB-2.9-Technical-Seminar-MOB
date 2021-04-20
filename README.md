@@ -44,19 +44,20 @@ By the end of the course, you will be able to ...
 |  3 |  Thu, Apr 8                 | [Roles and Workflow] & Kick off - Sprint 1 |
 |  4 |  Tue, Apr 13                | [Standup + Cowork] |
 |  5 |  Thu, Apr 15                | [Standup + Cowork] |
-|  6 |  Tue, Apr 20                | Standup + Code Reviews & Kick off - Sprint 2 |
+|  6 |  Tue, Apr 20                | [Sprint Review] + & Kick off - Sprint 2 |
 |  7 |  Thu, Apr 22                | [Standup + Cowork] |
 |  8 |  Tue, Apr 27                | [Standup + Cowork] |
 |  9 |  Thu, Apr 29                | [Standup + Cowork] |
-| 10 |  Tue, May 4                 | Standup + Code Reviews & Kick off - Sprint 3 |
+| 10 |  Tue, May 4                 | [Sprint Review] & Kick off - Sprint 3 |
 | 11 |  Thu, May 6                 | [Standup + Cowork] |
-| 12 |  Tue, May 11                | Standup + Final reviews |
-| 13 |  Thu, May 13                | Team & self assessment + Presentation |
+| 12 |  Tue, May 11                | [Standup + Cowork]]|
+| 13 |  Thu, May 13                | [Sprint Review] + Presentation |
 
 [Intro & Tools Pt. 1]: Lessons/Lesson1/Lesson1.md
 [Tools Pt. 2]: Lessons/Lesson2/Lesson2.md
 [Roles and Workflow]: Lessons/Lesson3/Lesson3.md
 [Standup + Cowork]: Lessons/Lesson4/Lesson4.md
+[Sprint Review]: Lessons/Lesson5/Lesson5.md
 
 ## Assignment Schedule
 

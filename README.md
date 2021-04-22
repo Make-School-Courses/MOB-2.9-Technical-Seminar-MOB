@@ -50,7 +50,7 @@ By the end of the course, you will be able to ...
 |  9 |  Thu, Apr 29                | [Standup + Cowork] |
 | 10 |  Tue, May 4                 | [Sprint Review] & Kick off - Sprint 3 |
 | 11 |  Thu, May 6                 | [Standup + Cowork] |
-| 12 |  Tue, May 11                | [Standup + Cowork]]|
+| 12 |  Tue, May 11                | [Standup + Cowork] |
 | 13 |  Thu, May 13                | [Sprint Review] + Presentation |
 
 [Intro & Tools Pt. 1]: Lessons/Lesson1/Lesson1.md
@@ -70,9 +70,7 @@ By the end of the course, you will be able to ...
 
 ## Class Assignments
 
-We will be using [Gradescope](gradescope.com), which allows us to provide fast and accurate feedback on your work. *All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope.*
-
-As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
+We will be using [Gradescope](gradescope.com) to turn in Standup Check Ins and Sprint Retrospectives.
 
 Your Gradescope login is your Make School email, and your password can be changed at [https://gradescope.com/reset_password](https://gradescope.com/reset_password). The same link can be used if you need to set your password for the first time.
 
@@ -85,7 +83,7 @@ Your Gradescope login is your Make School email, and your password can be change
 - [Project Specifications](/Assignments/project.md)
 - [Code Review Guide](/Assignments/CodeReviewGuide.md)
 - [Swift Style Guide](http://make.sc/swift-style-guide)
-
+- [Common Git Issues](/Assignments/CommonGitIssues.md)
 
 ## Evaluation
 

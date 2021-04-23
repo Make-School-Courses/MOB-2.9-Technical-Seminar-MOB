@@ -45,6 +45,10 @@ Use this time to:
 
 ## Workflow
 
+![workflow](../Images/workflow.png)
+
+<!-- > -->
+
 Recommended workflow:
 
 - Each feature gets a new branch.

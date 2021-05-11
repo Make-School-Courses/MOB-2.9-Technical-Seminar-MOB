@@ -51,13 +51,14 @@ By the end of the course, you will be able to ...
 | 10 |  Tue, May 4                 | [Sprint Review] & Kick off - Sprint 3 |
 | 11 |  Thu, May 6                 | [Standup + Cowork] |
 | 12 |  Tue, May 11                | [Standup + Cowork] |
-| 13 |  Thu, May 13                | [Sprint Review] + Presentation |
+| 13 |  Thu, May 13                | [Sprint Review] + [Presentation] |
 
 [Intro & Tools Pt. 1]: Lessons/Lesson1/Lesson1.md
 [Tools Pt. 2]: Lessons/Lesson2/Lesson2.md
 [Roles and Workflow]: Lessons/Lesson3/Lesson3.md
 [Standup + Cowork]: Lessons/Lesson4/Lesson4.md
 [Sprint Review]: Lessons/Lesson5/Lesson5.md
+[Presentation]: https://docs.google.com/presentation/d/1TOgSGfXLPHRmBHKxiEmsSd8R70j1CrE2JvseN39uX_k/edit?usp=sharing
 
 ## Assignment Schedule
 

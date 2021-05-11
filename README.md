@@ -89,7 +89,7 @@ Your Gradescope login is your Make School email, and your password can be change
 
 To pass this course you must meet the following requirements:
 
-- Passing grade in the [individual rubric]()
+- Passing grade in the [individual rubric](https://docs.google.com/document/d/1Qw69drjybIPOuhx0ZSLbU1U_2yrTCbxN8kovjofo2y4/edit?usp=sharing)
 - Passing grade in the [project rubric](https://docs.google.com/document/d/1Qw69drjybIPOuhx0ZSLbU1U_2yrTCbxN8kovjofo2y4/edit?usp=sharing)
 - Actively participate in class and abide by the attendance policy
 
